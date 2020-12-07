@@ -79,7 +79,7 @@ new Vue({
 					}, 900)
 
 					clipboardCopy(
-						'https://matrixage.github.io/images/' + this.current_data[index]
+						`https://${window.location.host}/images/` + this.current_data[index]
 					)
 					break
 				default:
