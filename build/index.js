@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: jimmy
+ * @Date: 2020-12-07 14:35:27
+ * @LastEditors: jimmy
+ * @LastEditTime: 2020-12-09 15:20:20
+ */
 const fs = require('fs-extra')
 const globby = require('globby')
 
@@ -6,7 +14,11 @@ const main = async () => {
 		'assets/*.png',
 		'assets/*.svg',
 		'assets/*.jpg',
-		'assets/*.jpeg'
+		'assets/*.jpeg',
+		'assets/**/*.png',
+		'assets/**/*.svg',
+		'assets/**/*.jpg',
+		'assets/**/*.jpeg',
 	])
 	const paths_target = []
 
